@@ -29,13 +29,17 @@ header{
 
 
 }
+#HeaderLinks{
+    font-size:20px;
+    
+}
 
 footer{
     color:white;
     background-color: black;
-    width: 92%;
+    width: 92.2%;
     height:80px;
-    margin-top:-30px;
+    margin-top:-35px;
     padding-top:10px;
     padding-left:20px;
    
