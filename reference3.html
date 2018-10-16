@@ -16,6 +16,7 @@
             padding-left:20px;
             
         }
+     
         
     </style>
     <link rel="stylesheet"  href="styling.css">
@@ -25,15 +26,15 @@
 </head>
 <body>
     <section>
-    <header><h1 style="text-align: center">This is my web page!</h1>
-    
-    <button type ="button"><a hrl="index.html">Home</a></button>
-    <button type="button">page1</button>
-    <button type="button">page2</button>
-    <button type="button">page3</button>
-    <button type="button"><a hrl="reference3.html">About</a></button>
-    
-    </header>    
+<header><h1 style="text-align: center">This is my web page!</h1> 
+    <div id= "HeaderLinks">
+        <a href="index.html"><button type ="button">Home</button></a>
+        <button type="button">page1</button>
+        <button type="button">page2</button>
+        <button type="button">page3</button>
+        <a href="reference3.html"><button type="button">About</button></a>
+    </div>
+</header>    
     <div class="intro">
         
         <img id = "profile_Pic" src= "IMG_20171227_151644.jpg">
@@ -50,7 +51,8 @@
 
     <footer>
        
-        <span id= "contact">Contacts:
+        <span id= "contact">Contact Us</span>:
+        <br>
         <br>
         
         Phone number: 133333333<br>
