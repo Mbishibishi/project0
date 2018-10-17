@@ -15,13 +15,14 @@ html{
     height: 100%;
 }
 section{
+margin-top:20px;
 min-height:100%;
-width:96%;
+width:84%;
 background-color:white;
-margin-left:20px;
+margin-left:70px;
 }
 header{
-    background-color: black;
+    background-color:darkslategrey;
     color:white;
     margin-top:0;
     height:100px;
@@ -37,17 +38,19 @@ header{
 
 footer{
     color:white;
-    background-color: black;
-    width: 92.2%;
+    background-color:darkslategrey;
+    width: 80%;
     
     height:80px;
     margin-top:-35px;
     padding-top:10px;
     padding-left:20px;
+    padding-bottom: 20px;
    
-    margin-left:20px;
-    padding-right:20px;
-    
+    margin-left:70px;
+
+    padding-right: 20px;
+    margin-bottom: 20px;
 }
 #contact {
     font-size: 20px;

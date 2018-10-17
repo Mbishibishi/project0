@@ -8,10 +8,13 @@
            
                 display: grid;
                 padding: 20px;
-                grid-column-gap: 10px;
-                grid-row-gap: 7px;
-                grid-template-columns: 1fr 1fr 1fr 1fr;
-                height:180px;
+                grid-column-gap: 20px;
+                grid-row-gap: 20px;
+                grid-template-columns: 45% 45%;
+                padding-right:20px;
+                height:50%;
+                padding-left:80px;
+                padding-top:40px;
                 
             }
 
@@ -51,25 +54,46 @@
         .titles{
             color:white;
             background-color: black;
+            padding-bottom:0;
+            margin-top:140px;
+            background-size:50px 50px 40px 20px;
+            
         }    
+        #OverFooter{
+            background-color:dimgrey;
+            color: white;
+            width:97.6%;
+            margin-top:0px;
+            height:52px;
+            padding-top:10px;
+            padding-left:20px;
+        }
    </style>
    <link rel="stylesheet"  href="styling.css">
    <base href="header-footer.html">
 </head>
 <body> 
     <section>
-        <header></header>
+        <header><h1 style="text-align: center">This is my web page!</h1> 
+            <div id= "HeaderLinks">
+                 <a href="index.html"><button type ="button">Home</button></a>
+                 <button type="button">page1</button>
+                 <button type="button">page2</button>
+                 <button type="button">page3</button>
+                 <a href="reference3.html"><button type="button">About</button></a>
+             </div>
+         </header>
         <div id = "grid">
             <div class = "pages0">
                 <a href="reference0.html"> 
                 <h4 class="titles">How Amsterdam's canal boats are going electric - at a cost</h4></a>
             </div>
             <div class = "pages1">
-                <a href="beautiful-pic1.jpg">
+                <a href="reference1.html">
                 <h4 class="titles">By the way, this is the second one</h4></a>
             </div>
             <div class = "pages2">
-                <a href="beautiful-pic2.jpg">
+                <a href="reference2.html">
                 <h4 class="titles"> This is simply the third reference</h4></a>
             </div>
             <div class = "pages3">
@@ -78,8 +102,22 @@
             </div> 
            
         </div>
+        <div id = "OverFooter">
+            The above posts are of the most beautiful places in the world.
+        </div>
     </section>
-    <footer></footer>
+    <footer>
+       
+        <span id= "contact">Contact Us</span>:
+        <br>
+        <br>
+        
+        Phone number: 133333333<br>
+     
+        Email Address: myName@me.com
+
+
+    </footer>
 
 </body>
 </html>
