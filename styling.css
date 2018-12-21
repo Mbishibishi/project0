@@ -6,8 +6,8 @@ body{
     background-position:center;
     background-attachment: fixed;
     background-size:cover;
-    margin-left:0;
-    margin-right:0;
+    min-width:600px;
+    
   
 
 }
@@ -15,44 +15,35 @@ html{
     height: 100%;
 }
 section{
-margin-top:20px;
+margin-top:50px;
 min-height:100%;
 width:84%;
 background-color:white;
-margin-left:70px;
+margin-left:7%;
 }
-header{
-    background-color:darkslategrey;
-    color:white;
-    margin-top:0;
-    height:100px;
-    padding-top:6px;
-    padding-bottom:5px;
 
-
-}
-#HeaderLinks{
-    font-size:20px;
-    
-}
 
 footer{
     color:white;
     background-color:darkslategrey;
-    width: 80%;
     
-    height:80px;
+    min-width: 100%;
+    height:130px;
     margin-top:-35px;
     padding-top:10px;
-    padding-left:20px;
+    margin-left: auto;
+    margin-right: auto;
     padding-bottom: 20px;
-   
-    margin-left:70px;
+    
+}
 
-    padding-right: 20px;
-    margin-bottom: 20px;
+.OverFooterContent{
+    padding-left: 50px;
 }
 #contact {
     font-size: 20px;
-
+}
+figcaption {
+    color: dimgray;
+    font-size: small;
 }
