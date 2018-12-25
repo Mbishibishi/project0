@@ -12,14 +12,75 @@
 
 
 
-
+/*@media (max-width: 599px){
+  header{
+      width:135%;
+  }
+  } */
+  
 #headerPhoto{
     width: 100%;
     height: 350px;
     
 }
+table, td, th{
+    padding: 25px;
+    margin: 15px;
+}
+section{
+    background-color: burlywood;
+}
+#cols{
+    border-right: 1px solid black;
+    
+}
+#lastrow{
+    border-bottom: 1px solid black;
+}
+#firstRow{
+    border-style: 3px solid black;
+    background-color:dimgray;
+}
+p{
+    padding: 15px;
+    
+}
+#befTable{
+    padding: 15px;
+}
+.GWPics{
 
-
+    display:flex;
+    margin: 15px;
+    flex-wrap: wrap; 
+}
+.GW{
+    width: 100%;
+     
+}
+.GWPics > div{
+    width: 24em;
+    padding: 10px;
+}
+/*@media (max-width: 599px){
+    footer{
+        color:lightseagreen;
+        background-color:darkslategrey;
+        
+        min-width: 135%;
+        height:300px;
+        margin-top:-35px;
+        padding-top:10px;
+    
+        padding-bottom: 20px;
+        
+    }
+    } */
+    @media (max-width: 699px){
+        table tr{
+            border-top: 1px solid black;
+        }
+    }
 
 </style>
 
@@ -35,13 +96,13 @@
                 <ul id="HeaderLinks">
                     <li><a href="index.html" class="first">Home</a></li>
                     <li><a href="#"> Pages&raquo;</a>
-                        <ul>
+                        <ol>
                                 <li><a href="reference0.html"> The Kalahari Desert</a></li>
                                 <li><a href="reference1.html"> Chefchaouen, Morocco</a></li>
                                 <li><a href="reference2.html"> Rothenburg ob der Tauber</a></li>
                                 <li><a href="reference3.html"> Oia, Greece</a></li>
                                 <li><a href="reference4.html"> The Great Wall of China</a></li>
-                            </ul>
+                            </ol>
                         </li>
                         </li>
     
@@ -52,58 +113,131 @@
 
 
 <section>
-        <p>The Great Wall of China is a series of fortifications made of stone,
-            brick, tamped earth, wood, and other materials, generally built along
-            an east-to-west line across the historical northern borders of China to
-            protect the Chinese states and empires against the raids and invasions
-            of the various nomadic groups of the Eurasian Steppe with an eye to expansion.
-            Several walls were being built as early as the 7th century BC; these, later
-            joined together and made bigger and stronger, are collectively referred to as
-            the Great Wall. Especially famous is the wall built in 220 to 206 BC by
-            Qin Shi Huang, the first Emperor of China. Little of that wall remains.
-            The Great Wall has been rebuilt, maintained, and enhanced over various
-            (1368 to 1644).</p>
-        <br>
-        <p>Apart from defense, other purposes of the Great Wall have included border
-            controls, allowing the imposition of duties on goods transported along the
-            Silk Road, regulation or encouragement of trade and the control of immigration
-            and emigration. Furthermore, the defensive characteristics of the Great Wall
-            were enhanced by the construction of watch towers, troop barracks, garrison
-            stations, signaling capabilities through the means of smoke or fire, and the
-            fact that the path of the Great Wall also served as a transportation corridor.</p>
-        <br>
-        <p>The frontier walls built by different dynasties have multiple courses.
-            Collectively, they stretch from Dandong in the east to Lop Lake in the west,
-            from present-day Sino-Russian border in the north to Qinghai in the south;
-            along an arc that roughly delineates the edge of Mongolian steppe. A
-            comprehensive archaeological survey, using advanced technologies, has
-            concluded that the walls built by the Ming dynasty measure 8,850 km (5,500 mi).
-            This is made up of 6,259 km (3,889 mi) sections of actual wall, 359 km (223 mi)
-            of trenches and 2,232 km (1,387 mi) of natural defensive barriers such as hills
-            and rivers. Another archaeological survey found that the entire wall with all
-            of its branches measures out to be 21,196 km (13,171 mi). Today, the Great Wall
-            is generally recognized as one of the most impressive architectural feats in history.</p>
-        <br>
-    </section>
-    <div id="OverFooter">
-        <div class="alert alert-info" role="alert">
-            The contents of this page were derived from<a href="https://en.wikipedia.org/wiki/Great_Wall_of_China"
-                class="alert-link">
-                here
-            </a>
-        </div>
+    <p><strong>The Great Wall of China</strong> is a series of fortifications made of stone, brick, tamped earth, wood, and other materials, generally built along an east-to-west line across the historical northern borders of China to protect the Chinese states and empires against the raids and invasions of the various nomadic groups of the Eurasian Steppe with an eye to expansion. Several walls were being built as early as the 7th century BC;[2] these, later joined together and made bigger and stronger, are collectively referred to as the Great Wall.[3] Especially famous is the wall built in 220–206 BC by Qin Shi Huang, the first Emperor of China. Little of that wall remains. The Great Wall has been rebuilt, maintained, and enhanced over various dynasties; the majority of the existing wall is from the Ming Dynasty (1368–1644).</p>
+    <div id = "befTable"> <strong>The table below provide an overview of some historical highlights from dinasty to dinasty.</strong></div>
+    <table>
+        <tr id = "firstRow">
+            <th id = "cols" width = "30%">Dynasty and Period</th>
+            <th>Main historical events</th>
+        </tr>
+        <tr class = "midRow">
+            <td id= "cols" >Zhou Dynasty (1046 - 256 BC)</td>
+            <td>In the turbulent Zhou Dynasty that consisted of Western Zhou Dynasty (1046BC-771BC), Spring and Autumn Period, and Warring States Period (475BC-221BC), several contemporary powerful states were established. In order to defend themselves, they all built walls and stationed troops on their borders. The earliest of these is the Chu State Great Wall, also known as "Square Wall". Later, other states added to the construction, including Qi State, Wei State, Yan State, Zhao State, and Qin State. The sections built by different states were unconnected until the reign of Emperor Qin Shi Huang.</td>
+        </tr>
+        <tr>
+            <td id= "cols">Qin Dynasty (221 - 207 BC)</td>
+            <td>In 221BC, Emperor Qin Shi Huang unified China for the first time after defeating the other states. As the central plain was constantly assaulted by the northern Huns, Emperor Qin Shi Huang sent the great general Meng Tian to fight back. At the same time, he ordered that the sections of the Great Wall created by different states be linked together and extended. Thereafter, the Great Wall, which runs eastward from Lintao (today's Minxian County in Gansu Province) to Yalu River in Liaoning Province, flew over mountain ridges, rivers, deserts, and plains in north China like a giant dragon.</td>
+        </tr>
+        <tr>
+            <td id= "cols">Han Dynasty (202 BC - 220 AD)</td>
+            <td>After Emperor Qin Shi Huang's death, the Qin Dynasty soon came to an end due to mass uprisings. Han Dynasty was then established by Emperor Gaozu, who had the previous wall renovated and reinforced. Later, Emperor Wu of Han constructed the Great Wall in a large scale. He had Yanmenguan Pass restored in 130BC, and the Qin Dynasty Wall renovated in 127BC. In order to protect the Hexi Corridor, he ordered the defensive line between Yongdeng County and Jiuquan in Gansu Province be built in 121BC. The line was extended from Jiuquan to Yumenguan Pass from 111BC to 110BC, and it was further lengthened to Lop Nor in Xinjiang from 104BC to 101BC. The Han Dynasty Wall was not only a defense against northern Huns, but it also protected the ancient Silk Road linking China and the western regions.</td>
+        </tr>
+        <tr>
+            <td id= "cols">Jin Dynasty (265 - 420)</td>
+            <td>As the central court maintained affiliation with the northern tribes, there was not massive construction of the Great Wall during the Jin Dynasty, but mainly the renovation work of the eastern segment of the Qin Dynasty wall.</td>
+        </tr>
+        <tr>
+            <td id= "cols">Southern and Northern Dynasties (420 - 589)</td>
+            <td>After the decline of the unified Han Dynasty, China endured a period of chaos when different states vied with one another as they sought to expand their territories. In turn, they each added to the Great Wall to defend themselves. The Northern Wei, Northern Qi, Eastern Wei, and Northern Zhou Dynasties all built their own sections, but on a smaller scale than the Han Dynasty.</td>
+        </tr>
+        <tr>
+            <td id= "cols">Sui Dynasty (581 - 618)</td>
+            <td>The establishment of Sui Dynasty put an end to the tumultuous period. The successive emperors attached great importance to border defense on account of the constant invasion by northern nomadic tribes. They ordered the wall and fortresses be built in the north and west. It took two million laborers 28 years to finish the large project. Thereafter, the defensive system stretched from Zihe River (an ancient river in today's south Inner Mongolia and northwest Shanxi) in the east, via Lingwu of Ningxia, and ended at Yugu (today's Guide County of Qinghai Province) in the west.</td>
+        </tr>
+        <tr>
+            <td id= "cols">Tang Dynasty (618 - 907)</td>
+            <td>The subsequent Tang Dynasty brought an era of comparative peace between the northern tribes and central China for most of the time, so few sections were built during this period.</td>
+        </tr>
+        <tr>
+            <td id= "cols">Liao Dynasty (907 - 1125)</td>
+            <td>The massive construction work of the Great Wall was implemented along the boundary line with the Bohai Kingdom while Emperor Shengzong (972 - 1031) and Xingzong (1016 - 1055) were in power. The Wall is also called Liao Bianhao with one single wall and a trench on the outside.</td>
+        </tr>
+        <tr>
+            <td id= "cols">Song Dynasty (960 - 1279)</td>
+            <td>The history of Great Wall continued during the Song Dynasty to defend against the invaders from the north and west, like Western Xia, Liao, and Jin. Nevertheless, the Wall failed to stop the intrusion of northern Jin Dynasty, leading to demise of Song Dynasty in 1127. Fortunately, Zhao Gou, known as Emperor Gaozu of Song, escaped to southern China and reestablished the Song in Lin'an (today's Hangzhou), historically called Southern Song Dynasty and the previous Song was named Northern Song Dynasty to distinguish between them. Owing to a lack of money and confidence in the natural barriers like Yangtze River and many other crisscrossing rivers, the Southern Song did not build the defensive line on its territory.
+                </td>
+        </tr>
+        <tr>
+            <td id= "cols">Jin Dynasty (1115 - 1234)</td>
+            <td>After defeating the Northern Song, the Jin Dynasty became a strong regime in northeast China. However, threatened by neighboring states, like Western Xia, and Mongol Empire, the Jin Dynasty began to build the northernmost wall of China in 1194, but the project was suspended due to drought and the objection of ministers. In 1196, the project was started again, and lasted three years. The Jin Dynasty Wall has a total length of about 1,025 miles (1,650 kilometers). There were also ditches, beacon towers, fortresses, and garrisons along the wall.</td>
+        </tr>
+        <tr>
+            <td id= "cols">Yuan Dynasty (1271 - 1368)</td>
+            <td>The strong Mongol Empire on horseback absorbed Western Xia, Jin, Southern Song as well as some other states, established the unified Yuan Dynasty. Owing to its large territory and strong military power, few sections were built during the Yuan Dynasty.
+                </td>
+        </tr>
+        <tr>
+        <td id= "cols">Ming Dynasty (1368 - 1644)</td>
+        <td>By contrast, the subsequent Ming Dynasty became the peak of Great Wall's history. From its establishment, the Ming Dynasty was harassed by northern tribes, like Tartars and Jurchens. Consequently, it continued the construction of the defensive line throughout its rule of over two centuries. Besides adding many more miles of its own, the Ming emperors ordered enlargement of the walls of previous dynasties into double-line or multi-line walls. For example, out of Yanmenguan Pass were added three big stone walls and 23 small ones. The main line of the Ming Dynasty started from Hushan near the Yalu River in the east to the Jiayuguan Pass in the west. It has a total length of about 5,500 miles (8,851.8 kilometers).</td>
+        </tr>
+        <tr>
+            <td id= "cols">Qing Dynasty (1644 - 1911)</td>
+            <td>The Ming Dynasty Wall was solid, but it failed to stop the cavalries of the Qing Dynasty, a regime established by Manchu people in northeast China. The Qing cavalries broke through Shanhaiguan Pass, and occupied the central plain. In the early Qing Dynasty, the emperors thought they were strong enough to defend themselves; very few additions to the wall were built. Later, in order to prevent Han people from entering northeast China and Inner Mongolia, they ordered a deep trench be dug in Liaoning and Inner Mongolia, and the willows be planted along the trench. Hence, the Qing Dynasty Wall was also called "Willow Line".</td>
+
+        </tr>
+        <tr id = "lastrow">
+            <td id= "cols">1911 - Present</td>
+            <td>Massive construction work of Great Wall was not implemented during this period and this former defensive facility welcomed a nationwide renovation since 1980s. Nowadays, it has become the national symbol and one of the most popular tourist destinations in China.</td>
+        </tr>
+
+    </table>
+    <div style = "text-align: center"><u  style = "font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">Below are recent photos taken at the great wall of China.</u></div>
+    <nav class = "GWPics">
+
+        <div>
+        <figure>
+            <img class = "GW" src = "greatWall.jpg">
+            <figcaption style = "text-align: center"> A pretty view of how the wall crosses over the mountains.</figcaption>
+        </figure>
     </div>
+    <div>
+        <figure>
+            <img class = "GW" src = "Night-View-Of-The-Great-Wall-Of-China.jpg">
+            <figcaption style = "text-align: center"> This is a night view of the Great Wall.</figcaption>
+        </figure>
+    </div>
+    <div>
+        <figure>
+            <img class = "GW" src = "snowyGreatWall.jpg">
+            <figcaption style = "text-align: center"> It gets hard to climb up the great Wall in winter because of snows.</figcaption>
+        </figure>
+    </div>
+        
+
+    </nav>    
+    </section>
     <footer>
+            <div id="OverFooter" style= "text-align: center">
+                    
+                        The contents of this page were derived from<a href="https://en.wikipedia.org/wiki/Great_Wall_of_China"
+                            class="alert-link">
+                            here
+                        </a>
+                    </div>
+        <ul>
+            <li>
+                <ul>
+                    <li class="topFoot">Contact Us:</li>
 
-        <span id="contact">Contact Us</span>:
-        <br>
-        <br>
+                    <li class="footer-contents">Phone number: 133333333</li>
 
-        <span class="footer-contents">Phone number: 133333333<br></span>
+                    <li class="footer-contents">Email Address: myName@me.com</li>
+                </ul>
+            </li>
 
-        <span class="footer-contents">Email Address: myName@me.com</span>
-
-
+            <li>
+                <ul>
+                    <li class="topFoot"> Home</li>
+                    <li><a href=index.html>Home Page</a></li>
+                </ul>
+            </li>
+            <li>
+                <ul>
+                    <li class="topFoot">About</li>
+                    <li><a href="reference5.html">About us</a></li>
+                </ul>
+            </li>
+        </ul>
     </footer>
 </body>
 

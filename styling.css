@@ -1,4 +1,5 @@
-body{
+
+    body{
     margin-top:0;
     height: 100%;
     background-image:url(beautiful-place.jpg);
@@ -6,44 +7,133 @@ body{
     background-position:center;
     background-attachment: fixed;
     background-size:cover;
-    min-width:600px;
+    min-width:500px;
     
-  
+    
 
 }
+
+/*@media (max-width: 599px){
+    body{
+        width:150%;
+    }
+}
+
+@media (max-width: 599px){
+    section{
+        margin: 0;
+    }
+}
+
+*/
+
 html{
     height: 100%;
 }
 section{
 margin-top:50px;
 min-height:100%;
-width:84%;
+width:95%;
 background-color:white;
-margin-left:7%;
+/*margin-left:7%;*/
+margin: auto;
+margin: auto;
+padding-bottom: 15%;
 }
 
 
+
+/*@media (max-width: 499px){
+    section{
+        margin-top:50px;
+        min-height:100%;
+        width:135%;
+        background-color:white;
+        //margin-left:7%;
+        margin: auto;
+        margin: auto;
+        padding-bottom: 15%;
+        }   
+} */
+/*@media (min-width: 600px){*/
 footer{
-    color:white;
+    color:lightseagreen;
     background-color:darkslategrey;
     
     min-width: 100%;
-    height:130px;
+    height:300px;
     margin-top:-35px;
     padding-top:10px;
-    margin-left: auto;
-    margin-right: auto;
+
     padding-bottom: 20px;
     
 }
 
-.OverFooterContent{
+
+/*.OverFooterContent{
     padding-left: 50px;
+}*/
+@media (min-width: 800px){
+
+.topFoot {
+    font-size: large;
+    padding-bottom: 15px;
 }
-#contact {
-    font-size: 20px;
 }
+@media (max-width : 799px){
+    .topFoot {
+        font-size: large;
+        padding-bottom: 5px;
+    }
+}
+
 figcaption {
     color: dimgray;
     font-size: small;
+}
+figure:hover{
+    border-style: solid;
+    border-color:dimgray;
+    border-width:10px;
+    border-bottom-color: black;
+    border-bottom-width: 15px;
+}
+@media (min-width: 800px){
+    footer>ul> li{
+    float: left;
+    display: inline;
+    padding-right: 25px;
+}
+}
+@media (max-width : 799px){
+    footer>ul> li{
+        float: left;
+        display: inline;
+        padding-right: 5px;
+    }
+
+    }
+   
+footer ul{
+    list-style: none;
+}
+@media (min-width: 800px){
+    footer>ul{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    border-top: 1px solid lightseagreen;
+}
+}
+@media (max-width : 799px){
+    footer>ul{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 5px;
+        border-top: 1px solid lightseagreen;
+        font-size: small;
+    }
+
 }
