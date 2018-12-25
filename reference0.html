@@ -6,10 +6,9 @@
     <title> kalahari Desert </title>
     <link rel="stylesheet" href="styling.css">
     <link rel="stylesheet" href="styling1.css">
-
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<style>
 
+<style>
 
 
 
@@ -18,6 +17,8 @@
     height: 350px;
     
 }
+
+
 .kalahari-pics{
 
   margin-bottom: 10px;
@@ -26,6 +27,7 @@
   border-width: 10px;
   height:300px;
 }
+
 #kalPicTitle{
  
   font-family:cursive;
@@ -34,15 +36,26 @@
   background-color:dimgray;
   padding-top: 10px;
 }
-.col-8{
+section{
   background-color:burlywood;
+ 
+  
+
 }
 
 .col-8 p{
   padding-top: 15px;
+  padding-left: 15px;
+  
 }
+
 .mid-kalahari-pics{
-  width: 95%;
+  width: 100%;
+  
+}
+
+figure{
+  margin-left:10%;
 }
 
 
@@ -55,18 +68,18 @@
         <header>
                 
                 <img id = "headerPhoto" src = "The-Kalahari.jpg"> 
-                <h3 id = "headerText" style="text-align: center">Central Kalahari Game Reserve, Botswana.</h3>
+                <h3 id = "headerText" style="text-align: center"> Central Kalahari Game Reserve, Botswana.</h3>
 
                 <ul id="HeaderLinks">
                     <li><a href="index.html" class="first">Home</a></li>
                     <li><a href="#"> Pages&raquo;</a>
-                        <ul>
-                                <li><a href="reference0.html"> Central Kalahari Game Reserve </a></li>
+                        <ol>
+                                <li><a href="reference0.html"> The Kalahari Desert </a></li>
                                 <li><a href="reference1.html"> Chefchaouen, Morocco</a></li>
                                 <li><a href="reference2.html"> Rothenburg ob der Tauber</a></li>
                                 <li><a href="reference3.html"> Oia, Greece</a></li>
                                 <li><a href="reference4.html"> The Great Wall of China</a></li>
-                            </ul>
+                            </ol>
                         </li>
                         </li>
     
@@ -127,7 +140,7 @@
            tourists.</p>
     <br>
     <figure>
-    <img class = " mid-kalahari-pics" src= "san-bushmen.jpg">
+    <img class = "mid-kalahari-pics" src= "san-bushmen.jpg">
     <figcaption style= "text-align: center"> The San people. </figcaption>
   </figure>
     <br>       
@@ -165,23 +178,38 @@
 
 
   </section>
-  <div id="OverFooter">
-    <div class="alert alert-info" role="alert">
-      The contents of this page were derived from<a href="http://kalahari-desert.net/kalahari-desert/" class="alert-link">
-        here
-      </a>
-    </div>
-  </div>
   <footer>
+      <div id="OverFooter" style= "text-align: center">
+              
+                  The contents of this page were derived from<a href="https://en.wikipedia.org/wiki/Great_Wall_of_China"
+                      class="alert-link">
+                      here
+                  </a>
+              </div>
+  <ul>
+      <li>
+          <ul>
+              <li class="topFoot">Contact Us:</li>
 
-    <span id="contact">Contact Us</span>:
-    <br>
-    <br>
+              <li class="footer-contents">Phone number: 133333333</li>
 
-    <span class="footer-contents">Phone number: 133333333<br></span>
-    <span class="footer-contents">Email Address: myName@me.com</span>
+              <li class="footer-contents">Email Address: myName@me.com</li>
+          </ul>
+      </li>
 
-
-  </footer>
+      <li>
+          <ul>
+              <li class="topFoot"> Home</li>
+              <li><a href=index.html>Home Page</a></li>
+          </ul>
+      </li>
+      <li>
+          <ul>
+              <li class="topFoot">About</li>
+              <li><a href="reference5.html">About us</a></li>
+          </ul>
+      </li>
+  </ul>
+</footer>
 
 </body>
