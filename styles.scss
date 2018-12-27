@@ -12,7 +12,7 @@ $titlesColor:dimgray;
         padding-top: 15px;
         padding-bottom: 15px;
         margin-left: 20%;
-        background-color: $titlesColor;
+       
     
 }
 
@@ -100,12 +100,13 @@ footer{
   .oia-titles{
       @extend %oiaRothMidTitles;
       margin-right: 40%;
-      padding-left: 20px;
+     
   }
   
   .roth-titles {
       @extend %oiaRothMidTitles;  
     margin-right: 20%;
+       background-color: $titlesColor;
 }
 
 
