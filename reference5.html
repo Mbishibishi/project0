@@ -2,9 +2,9 @@
 <html>
 
 <head>
-    <meta charset="UTF-8">
-    <title>Bootstrap Example</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About the developer</title>
+    
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <style>
         .intro {
@@ -12,41 +12,62 @@
 
             margin-right: 50px;
             padding-top: 20px;
-            padding-left: 20px;
+            padding-left: 0px;
             padding-bottom: 50px;
 
         }
 
         #profile_Pic {
-            width: 175px;
-            height: 180px;
-            padding-left: 20px;
+            width: 15em;
+            height: 15em;
+            padding-left: 10px;
+            border-radius: 100px;
 
         }
 
         .media {
-            padding-top: 20px;
+            margin-top: 20px;
         }
 
         .media-body {
-            padding-left: 30px;
+            padding-left: 5px;
+            margin-right: 15px;
 
         }
 
         p {
-            width: 70%;
+            width: 100%;
+            padding: 10px;
         }
 
         .intro p {
 
             background-color: black;
             color: white;
-            padding: 10px;
+            margin: 10px;
         }
 
         #table_title {
             font-size: x-large;
         }
+        header{
+            background-color: darkslategrey;
+            color: white; 
+        }
+
+        footer>ul{
+            margin-top: 50px;
+        }
+
+        td{
+            padding: 10px;
+        }
+        table ul{
+            padding: 0;
+            list-style: none;
+        }
+ 
+        
     </style>
     <link rel="stylesheet" href="styling.css">
     <link rel="stylesheet" href="styling1.css">
@@ -60,16 +81,16 @@
             <ul id="HeaderLinks">
                 <li><a href="index.html" class="first">Home</a></li>
                 <li><a href="#"> Pages&raquo;</a>
-                    <ul>
+                    <ol>
                         <li><a href="reference0.html"> The Kalahari Desert</a></li>
                         <li><a href="reference1.html"> Chefchaouen, Morocco</a></li>
-                        <li><a href="reference2.html"> Rothenburg ob der Tauber, German</a></li>
+                        <li><a href="reference2.html"> Rothenburg ob der Tauber</a></li>
                         <li><a href="reference4.html"> Oia, Greece</a></li>
                         <li><a href="reference4.html"> The Great Wall of China</a></li>
-                    </ul>
+                    </ol>
                 </li>
 
-                <li><a href="reference5.html"> About Us</a></li>
+                <li><a href="reference5.html"> About Me</a></li>
             </ul>
         </header>
         <div class="media">
@@ -79,66 +100,62 @@
                 </a>
             </div>
             <div class="media-body">
-                <h4 class="media-heading">About Elois Mbishibishi</h4>
+                <h4 class="media-heading">About Elois Mbishibishi:</h4>
 
 
-                <p>I'm a crazy young boy learning to become
-                    a software developer. Growing up, I had no thought about going
-                    the computer science way; in fact, one of the scariest things for me was
-                    the "command line interface." Seeing some computer science geeks typing or
-                    reading things at the command line was really intimidating for me that I couldn't
-                    even believe myself doing things before that scary black screen someday. It wasn't until I
-                    questioned
+                <p>
+                    Growing up, I had no thought about going
+                    the computer science way. Seeing some computer science geeks
+                    doing things at the command line was the most intimidating to me. It wasn't until I
+                    It wasn't until I questioned
                     my fears and decided to step out of my confort zone and find out why so many
-                    computer scientist are confident and proud, that I found myself on the
-                    way to what I used to get me freak. And I am not yet done finding out why?
+                    computer scientist are so confident and proud, that I found myself on the
+                    way to that which used to get me freak.
                 </p>
 
             </div>
         </div>
         <div class="intro">
             <ul>
-                <li>
                     <h4>The purpose of this web page:</h4>
                 </li>
                 <p>I built this simple website for my first project to demonstrate
                     html and css skills I learned in the first two lectures of the edx
                     course "Web programming with javascript and python" offered by Harvard
-                    University. The website is, by no means, intended to be a travel blog or anything alike.
-                    The reader who comes across it on the web should not consider it as a travel blog at all.
-                    Rather, it should be considered as a mere web programming project.
-                    Most text contents were derived from other sites and little to no effort to review the
-                    accuracy or order of the information in them was made.</p>
+                    University. Most text contents are not originally mine; I copied them
+                     from other sites just to complete my programming assignment. 
+                    
+                    </p>
                 <li>
-                    <div id="table_title"> Text contents sources.</div>
+                    <div id="table_title"> Text contents sources:</div>
                 </li>
                 <table>
+                    
                     <tr>
-                        <th>Place</th>
-                        <th>Content Source</th>
-                    </tr>
-                    <tr>
-                        <td>The Kalahari Desert, Namibia</td>
-                        <td>http://kalahari-desert.net/kalahari-desert/</td>
+                        <td><strong> Kalahari Desert, Namibia</strong><br>
+                        http://kalahari-desert.net/kalahari-desert/</td>
 
                     </tr>
                     <tr>
-                        <td>Chefchaouen, Morocco</td>
-                        <td>https://en.wikipedia.org/wiki/Chefchaouen</td>
+                        <td><strong> Chefchaouen, Morocco</strong>
+                        <br>https://en.wikipedia.org/wiki/Chefchaouen</td>
 
                     </tr>
-                    <tr>
-                        <td>Rothenburg ob der Tauber, Germany</td>
-                        <td>...........</td>
-
-                    </tr>
-                    <tr>
-                        <td>Oia, Greece</td>
-                        <td>.....</td>
-                    </tr>
-                    <tr>
-                        <td>The Great Wall of China</td>
-                        <td>https://en.wikipedia.org/wiki/Great_Wall_of_China</td>
+                   <tr>
+                            <td><strong> Rothenburg ob der Tauber, Germany</strong>
+                            <br>https://www.germany-insider-facts.com/rothenburg-ob-der-tauber.html</td>
+    
+                        </tr>
+                        <tr>
+                            <td><strong> Oia, Greece</strong>
+                            <br>https://en.wikipedia.org/wiki/Oia,_Greece</td>
+                        </tr>
+                        <tr>
+                            <td><strong> The Great Wall of China</strong><br>
+                            <ul>
+                                <li>https://en.wikipedia.org/wiki/Great_Wall_of_China</li>
+                                <li>https://www.travelchinaguide.com/china_great_wall/history/</li>
+                            </ul></td>
                     </tr>
                 </table>
             </ul>
@@ -148,15 +165,31 @@
 
     </section>
     <footer>
+            
+        <ul>
+            <li>
+                <ul>
+                    <li class="topFoot">Contact Us:</li>
 
-        <span id="contact">Contact Us</span>:
-        <br>
-        <br>
+                    <li class="footer-contents">Phone number: 133333333</li>
 
-        <span class="footer-contents">Phone number: 133333333<br></span>
-        <span class="footer-contents">Email Address: myName@me.com</span>
+                    <li class="footer-contents">Email Address: myName@me.com</li>
+                </ul>
+            </li>
 
-
+            <li>
+                <ul>
+                    <li class="topFoot"> Home</li>
+                    <li><a href=index.html>Home Page</a></li>
+                </ul>
+            </li>
+            <li>
+                <ul>
+                    <li class="topFoot">About</li>
+                    <li><a href="reference5.html">About Me</a></li>
+                </ul>
+            </li>
+        </ul>
     </footer>
 
 </body>
