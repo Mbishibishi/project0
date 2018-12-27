@@ -2,22 +2,9 @@
 <html>
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web programming with javascript & python project 0</title>
     <style>
-        #grid {
-
-            display: grid;
-            padding: 20px;
-            grid-column-gap: 20px;
-            grid-row-gap: 20px;
-            grid-template-columns: 75%;
-            padding-right: 20px;
-            height: 70%;
-            padding-left: 80px;
-            padding-top: 40px;
-            padding-bottom: 70px;
-        }
 
         #pages0,
         #pages1,
@@ -27,7 +14,7 @@
 
             padding-left: 20px;
             padding-right: 20px;
-            text-align: center;
+            
         }
 
         .referenceImages {
@@ -35,219 +22,226 @@
             height: 45%;
         }
 
-        .titles {
+        /*.titles {
             background-color: white;
             color: black;
             padding-bottom: 0;
             background-size: 50px 50px 40px 20px;
 
-        }
+        }*/
 
-        #OverFooter {
-            background-color: dimgrey;
-            color: white;
-            width: 100%;
-            height: 80px;
-            padding-top: 40px;
-
-            margin-top: -55px;
-            padding-bottom: 20px;
-            margin-bottom: 20px;
-
-
-
-        }
-
-        
-
-        .OverFooterWords {
-            padding-left: 20px;
-            padding-right: 80px;
-        }
-
-        #HeaderLinks {
-            position: relative;
-        }
-
-        ul#HeaderLinks li:hover>ul {
-            visibility: visible;
-            opacity: 1;
-        }
-
-        ul#HeaderLinks ul {
-            visibility: hidden;
-            opacity: 0;
-            position: absolute;
+        header{
             background-color: darkslategrey;
-            color: black;
+            color: white; 
         }
 
-        #HeaderLinks>li {
-            display: inline;
-            font-size: 25px;
-            font-weight: bold;
-            padding-left: 15px;
-
-            float: left;
-            position: relative;
-
-
-        }
-
-        #HeaderLinks li ul {
-            font-size: 15px;
-            padding-right: 10px;
-            border-top: 1px darkslategrey;
-        }
-
-        #HeaderLinks li a {
-            text-shadow: 1px 1px 0px #616161;
-            text-decoration: none;
-            display: inline-block;
-            color: black;
-            padding: 10px 25px;
-        }
-
-        header {
-            background-color: darkslategrey;
-            color: white;
-            margin-top: 0;
-            height: 120px;
-            padding-top: 6px;
-            padding-bottom: 5px;
-
-
-
-        }
-
-        #HeaderLinks {
-            font-size: 20px;
-
-        }
+ 
     </style>
     <link rel="stylesheet" href="styling.css">
-    <link rel="html5" href="reference4.html">
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+    
 </head>
-
 <body>
     <section>
         <header>
-            <h1 style="text-align: center"> Five beautiful places you should visit.</h1>
+            <h1 style="text-align: center"> What you should know about these five places.</h1>
 
             <ul id="HeaderLinks">
                 <li><a href="index.html" class="first">Home</a></li>
-                <li><a href="#"> Pages&raquo;</a>
-                    <ul>
+                <li><a href="#"> Places&raquo;</a>
+                    <ol>
                         <li><a href="#pages0"> The Kalahari Desert</a></li>
                         <li><a href="#pages1"> Chefchaouen, Morocco</a></li>
-                        <li><a href="#pages2"> Rothenburg ob der Tauber, German</a></li>
+                        <li><a href="#pages2"> Rothenburg ob der Tauber</a></li>
                         <li><a href="#pages3"> Oia, Greece</a></li>
                         <li><a href="#pages4"> The Great Wall of China</a></li>
-                    </ul>
+                    </ol>
                 </li>
 
                 <li><a href="reference5.html"> About Us</a></li>
             </ul>
 
+</header>
 
 
-
-        </header>
-        <div id="grid">
-            <div id="pages0">
-                <h3>The Kalahari Desert, Namibia</h3>
+        <!--<div id="grid">
+            <div id="pages0"> -->
+                    <div class="row">
+                            <div class="col-sm-12 col-md-10 col-lg-10">
+                              <div class="thumbnail">
+                                  <nav id="pages0">
+                                    <img class = "referenceImages" src="The-Kalahari.jpg">
+                                    <div class="caption">
+                                      <h3>Central Kalahari Game Reserve, Botswana.</h3>
+                                     
+                                      
+               <!-- <h3>Central Kalahari Game Reserve, Botswana.</h3> 
                 <figure>
-                    <img class="referenceImages" src="The-kalahari-desert.jpg">
-                    <figcaption>Kalahari desert picture</figcaption>
-                </figure>
+                    <img class="referenceImages" src="The-Kalahari.jpg">
+                    <figcaption>Central Kalahari Game Reserve, Botswana.</figcaption>
+                </figure> -->
 
-                <p>The dry season lasts eight months or more, and the wet season
-                    typically from less than one month to four months, depending on
-                    location. The southwestern Kalahari is the driest area,
-                    in particular a small region located towards the west-southwest
-                    of Tsaraxaibis (Southeast of Namibia). The average annual
-                    rainfall ranging from around 110 mm (close to aridity) to more
-                    than 500 mm in some areas of the north and east. During summer
-                    time in all regions rainfall may go with heavy thunderstorms.
-                    In the driest and sunniest parts of the Kalahari, over 4,000 hours
-                    of sunshine are recorded annually on average.<a href="reference0.html"><span>
+                <p>Central Kalahari Game Reserve is an extensive national park in the Kalahari 
+                    desert of Botswana. Established in 1961 it covers an area of 52,800 square 
+                    kilometres (20,400 sq mi) (larger than the Netherlands, and almost 10% of 
+                    Botswana's total land area), making it the second largest game reserve in 
+                    the world. <!--<a href="reference0.html"><span>
                             <h4 class="titles">Read more...</h4>
-                        </span></a>
+                        </span></a>-->
                 </p>
+            
 
-            </div>
-            <div id="pages1">
+            <!--</div>-->
+            <p><a href="reference0.html" class="btn btn-primary" role="button">Read more</a> 
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+
+                            </nav>
+            
+                              <div class="row">
+                                    <div class="col-sm-12 col-md-10 col-lg-10">
+                                      <div class="thumbnail">
+                                            <nav id="pages1">
+                                            <img class = "referenceImages" src="Chefchaouen-morocco.jpg">
+                                            <div class="caption">
+                                              <h3>Chefchaouen, Morocco.</h3>
+                                    
+                              <!--<div id="pages1">
                 <h3>Chefchaouen, Morocco</h3>
                 <figure>
                     <img class="referenceImages" src="Chefchaouen-morocco.jpg">
-                    <figcaption>Kalahari desert picture</figcaption>
-                </figure>
+                    <figcaption>Chefchaouen, Morocco picture</figcaption>
+                </figure>-->
                 <P>Chefchaouen or Chaouen, as it is often called by Moroccans is a popular
                     tourist destination because of its proximity to Tangier and the Spanish
                     enclave of Ceuta. There are approximately two hundred hotels catering to
                     the summer influx of European tourists. One distinction possessed by
-                    Chefchaouen is its blue-rinsed houses and buildings.<a href="reference1.html"><span>
+                    Chefchaouen is its blue-rinsed houses and buildings.<!--<a href="reference1.html"><span>
                             <h4 class="titles">Read more...</h4>
-                        </span></a>
+                        </span></a>-->
                 </P>
+            <!--</div>-->
+            <p><a href="reference1.html" class="btn btn-primary" role="button">Read more</a> 
             </div>
-            <div id="pages2">
+          </div>
+        </div>
+      </div>
+
+    </nav>
+
+
+
+
+
+            <div class="row">
+                    <div class="col-sm-12 col-md-10 col-lg-10">
+                      <div class="thumbnail">
+                            <nav id="pages2">
+                            <img class = "referenceImages" src="Rothenburg-ob-der-Tauber-Bavaria-German.jpg">
+                            <div class="caption">
+                              <h3>Rothenburg, German picture.</h3>
+                    
+
+
+            <!--<div id="pages2">
                 <h3>Rothenburg ob der Tauber, German</h3>
                 <figure>
                     <img class="referenceImages" src="Rothenburg-ob-der-Tauber-Bavaria-German.jpg">
-                    <figcaption>Kalahari desert picture</figcaption>
-                </figure>
-                <p>The dry season lasts eight months or more, and the wet season
-                    typically from less than one month to four months, depending on
-                    location. The southwestern Kalahari is the driest area,
-                    in particular a small region located towards the west-southwest
-                    than 500 mm in some areas of the north and east. During summer
-                    time in all regions rainfall may go with heavy thunderstorms.
-                    In the driest and sunniest parts of the Kalahari, over 4,000 hours
-                    of sunshine are recorded annually on average.<a href="reference2.html"><span>
+                    <figcaption>Rothenburg, German picture</figcaption>
+                </figure>-->
+                <p>Settlement in Rothenburg's area dates back to 970 AD when a parish developed in
+                    Detwang (today a suburb of Rothenburg).
+            
+                    1070 - The first castle at Rothenburg was built for the counts of Rothenburg in a
+                    nice spot overlooking the Tauber valley. After the counts family died off, the
+                    Hohenstaufen dynasty took possession of the castle.<!--<a href="reference2.html"><span>
                             <h4 class="titles">Read more...</h4>
-                        </span></a>
+                        </span></a>-->
                 </p>
+            <!--</div>-->
+            <p><a href="reference2.html" class="btn btn-primary" role="button">Read more</a> 
             </div>
-            <div id="pages3">
+          </div>
+        </div>
+      </div>
+    </nav>
+
+
+
+
+            <div class="row">
+                    <div class="col-sm-12 col-md-10 col-lg-10">
+                      <div class="thumbnail">
+                            <nav id="pages3">
+                            <img class = "referenceImages" src="Oia-Greece.jpg">
+                            <div class="caption">
+                              <h3>Oia, Greece picture.</h3>
+                    
+
+
+            <!--<div id="pages3">
                 <h3>Oia, Greece</h3>
                 <figure>
                     <img class="referenceImages" src="Oia-Greece.jpg">
-                    <figcaption>Kalahari desert picture</figcaption>
-                </figure>
-                <p>The dry season lasts eight months or more, and the wet season
-                    typically from less than one month to four months, depending on
-                    location. The southwestern Kalahari is the driest area,
-                    in particular a small region located towards the west-southwest
-                    of Tsaraxaibis (Southeast of Namibia). The average annual
-                    rainfall ranging from around 110 mm (close to aridity) to more
-                    than 500 mm in some areas of the north and east. During summer
-                    time in all regions rainfall may go with heavy thunderstorms.
-                    In the driest and sunniest parts of the Kalahari, over 4,000 hours
-                    of sunshine are recorded annually on average.<a href="reference3.html"><span>
+                    <figcaption>Oia, Greece picture. </figcaption>
+                </figure>-->
+                <p><p>The settlement of Oia had been mentioned in various travel reports before the 
+                    beginning of Venetian rule, when Marco Sanudo founded the Duchy of Naxos in 
+                    1207 and feudal rule was instituted on Santorini. Under the da Corogna 
+                    family, Agios Nikolaos Kastell (Καστέλι του Αγίου Νικολάου), also called 
+                    Apanomeria (Απανωμερία), was one of five local citadels. Its residential keep, 
+                    Goulas, is now in the oldest part of the town, on its southwestern edge.
+                <!--<a href="reference3.html"><span>
                             <h4 class="titles">Read more...</h4>
-                        </span></a>
+                        </span></a>-->
                 </p>
+            <!--</div>-->
+            <p><a href="reference3.html" class="btn btn-primary" role="button">Read more</a> 
             </div>
-            <div id="pages4">
+          </div>
+        </div>
+      </div>
+    </nav>
+
+
+      <div class="row">
+            <div class="col-sm-12 col-md-10 col-lg-10">
+              <div class="thumbnail">
+                    <nav id="pages4">
+                    <img class = "referenceImages" src="great-wall-china.jpg">
+                    <div class="caption">
+                      <h3>The great wall of China.</h3>
+
+
+
+            <!--<div id="pages4">
                 <h3>The Great Wall of China</h3>
                 <figure>
                     <img class="referenceImages" src="great-wall-china.jpg">
-                    <figcaption>Kalahari desert picture</figcaption>
-                </figure>
+                    <figcaption>The great wall of China. </figcaption>
+                </figure>-->
                 <p>The Great Wall of China is a series of fortifications made of stone, brick,
                     tamped earth, wood, and other materials, generally built along an east-to-west
                     line across the historical northern borders of China to protect the Chinese
                     states and empires against the raids and invasions of the various nomadic
-                    groups of the Eurasian Steppe with an eye to expansion. <a href="reference4.html"><span>
+                    groups of the Eurasian Steppe with an eye to expansion. <!--<a href="reference4.html"><span>
                             <h4 class="titles">Read more...</h4>
-                        </span></a>
+                        </span></a>-->
                 </p>
-            </div>
+            <!--</div>
 
+        </div>-->
+
+
+        <p><a href="reference4.html" class="btn btn-primary" role="button">Read more</a> 
         </div>
+      </div>
+    </div>
+  </div>
+</nav>
 
 
     </section>
@@ -256,17 +250,38 @@
 
 
     <footer>
-            <div class = "footer-contents">
-      
-          <span id="contact">Contact Us</span>:
-          <br>
-          <br>
-      
-          <span>Phone number: 133333333<br></span>
-          <span>Email Address: myName@me.com</span>
-      
-      </div>
-        </footer>
+        <div id="OverFooter">
+                
+                    Find out the purpose of this website <a href="reference5.html"
+                        class="alert-link">
+                        here
+                    </a>
+                </div>
+    <ul>
+        <li>
+            <ul>
+                <li class="topFoot">Contact Me:</li>
+  
+                <li class="footer-contents">Phone number: 133333333</li>
+  
+                <li class="footer-contents">Email Address: myName@me.com</li>
+            </ul>
+        </li>
+  
+        <li>
+            <ul>
+                <li class="topFoot"> Home</li>
+                <li><a href=index.html>Home Page</a></li>
+            </ul>
+        </li>
+        <li>
+            <ul>
+                <li class="topFoot">About</li>
+                <li><a href="reference5.html">About us</a></li>
+            </ul>
+        </li>
+    </ul>
+  </footer>
 
 
 
