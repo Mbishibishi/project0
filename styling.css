@@ -17,18 +17,14 @@ html{
 section{
 margin-top:50px;
 min-height:100%;
-width:95%;
+width:100%;
 background-color:white;
 margin: auto;
 margin: auto;
 padding-bottom: 15%;
 font-size:1em;
 }
-@media (max-width: 991px){
-    section{
-        width:100%;
-    }
-}
+
 figcaption {
     color: white;
     font-size: small;
@@ -40,14 +36,7 @@ figure:hover{
     border-width:3px;
     border-bottom-width: 15px;
 }
-.oia-titles, .roth-titles {
-    text-decoration: underline;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin-left: 20%;
-    margin-right: 20%;
-    background-color: dimgray;
-}
+
 
 footer>ul{
     margin-left: auto;

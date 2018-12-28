@@ -7,6 +7,15 @@ $titlesColor:dimgray;
     display: inline;
 }
 
+%oiaRothMidTitles{
+        text-decoration: underline;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-left: 20%;
+        background-color: $titlesColor;
+    
+}
+
 footer{
     color:lightseagreen;
     background-color:$headerFooterColor;
@@ -88,6 +97,15 @@ footer{
   
   }
   
+  .oia-titles{
+      @extend %oiaRothMidTitles;
+      margin-right: 40%;
+  }
+  
+  .roth-titles {
+      @extend %oiaRothMidTitles;  
+    margin-right: 20%;
+}
 
 
 
